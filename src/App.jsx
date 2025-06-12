@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/*" element={<WebsiteRouter/>} />
-      <Route path="/admin/*" element={<AppAdmin />} />
+{/*       <Route path="/admin/*" element={<AppAdmin />} /> */}
     </Routes>
   );
 }
