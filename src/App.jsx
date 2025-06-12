@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 
-import AppAdmin from './Admin/AppAdmin';
+// import AppAdmin from './Admin/AppAdmin';
 import WebsiteRouter from './WebsiteRouter';
 
 function App() {
