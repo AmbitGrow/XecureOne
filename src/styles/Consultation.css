@@ -1,0 +1,126 @@
+/* seventh Section start */ /*  Section end */
+.hp-seventh-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.get-secured-now-section .get-secured-now {
+  width: 1100px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  backdrop-filter: blur(40px);
+  padding-top: 50px;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent; /* Make border transparent initially */
+  margin-bottom: 100px;
+}
+
+/* Gradient border that's always visible - EXACTLY like your sample */
+.get-secured-now-section .get-secured-now::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  padding: 2px; /* This controls the border width */
+  background: linear-gradient(
+    45deg,
+    rgba(222, 215, 223, 0.8),
+    rgba(31, 0, 63, 0.8),
+    rgba(246, 246, 247, 0.8)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Your existing styles below */
+.get-secured-now-section .get-secured-card {
+  opacity: 0.7;
+}
+
+.get-secured-now-section .getsecured-circle1 {
+  top: -100px;
+  left: -60px;
+  width: 400px;
+  height: 300px;
+  background: #abd9d9;
+  opacity: 0.3;
+  filter: blur(80px);
+}
+
+.get-secured-now-section .getsecured-circle2 {
+  top: -40px;
+  right: -50px;
+  width: 220px;
+  height: 300px;
+  background: #8d8dda;
+  animation-delay: 3s;
+  opacity: 0.3;
+  filter: blur(70px);
+}
+
+.get-secured-now-section .getsecured-circle3 {
+  bottom: -600px;
+  left: 400px;
+  width: 900px;
+  height: 700px;
+  filter: blur(120px);
+  opacity: 0.5;
+}
+
+.get-secured-now-section .getsecured-tag {
+  border-radius: 30px;
+  padding: 17px 25px;
+  font-size: 22px;
+}
+
+.get-secured-now-section .getsecured-tag::after {
+  border-radius: 30px;
+}
+
+.get-secured-now-section .get-secured-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.get-secured-now-section .get-secured-content .heading {
+  font-size: 50px;
+}
+
+.get-secured-content .heading span {
+  color: #ccc;
+}
+
+.get-secured-now-section .get-secured-content .sub-heading {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  width: 98%;
+  color: #ccc;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.get-secured-content .bookconsult-button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

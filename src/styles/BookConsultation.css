@@ -1,0 +1,155 @@
+.book-consult-overall-container {
+  width: 100%;
+  padding: 20px 10rem;
+}
+
+.book-consult-first-section .xecure-btn {
+  /* position: relative; */
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(
+    90deg,
+    hsla(240, 82%, 28%, 0.5) 0%,
+    hsla(240, 81%, 43%, 0.2) 100%
+  );
+  backdrop-filter: blur(12px);
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+/* Permanent Top & Bottom Center Glow */
+.book-consult-first-section .xecure-btn::before,
+.book-consult-first-section .xecure-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #845ec2, transparent);
+}
+
+.book-consult-first-section .xecure-btn::before {
+  top: 0;
+}
+
+.book-consult-first-section .xecure-btn::after {
+  bottom: 0;
+}
+
+/* First section Start */
+.book-consult-first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  /* max-width: 80%; */
+  height: auto;
+  padding: 20px;
+}
+.book-consult-first-section h1 {
+  font-size: 70px;
+}
+.book-consult-first-section h1 span {
+  color: #ccc;
+  font-size: 60px;
+}
+
+.book-consult-first-section p {
+  font-size: 21px;
+  padding: 50px 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ccc;
+}
+
+.consultation-form {
+  background: rgba(44, 56, 99, 0.4);
+  border-radius: 18px;
+  box-shadow: 0 6px 32px 0 rgba(0, 0, 0, 0.18);
+  padding: 32px 28px 24px 28px;
+  width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  backdrop-filter: blur(6px);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row {
+  display: flex;
+  gap: 14px;
+}
+
+.form-group.half {
+  flex: 1;
+}
+
+.form-input {
+  background: rgba(255, 255, 255, 0.13);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  margin-top: 2px;
+}
+.form-input-purpose {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.13);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  /* color: #fff; */
+  font-size: 1rem;
+  outline: none;
+  margin-top: 2px;
+}
+
+.form-input:focus {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid #8ab4f8;
+}
+
+.textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+label {
+  color: #fff;
+  font-size: 0.98rem;
+  margin-bottom: 2px;
+}
+
+.submit-btn {
+  background: #fff;
+  color: #222;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.18s;
+}
+
+.submit-btn:hover {
+  background: #e3e3e3;
+}
