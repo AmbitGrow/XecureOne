@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Servicepage.css";
+import "../Styles/Servicepage.css";
 import {useEffect,useLayoutEffect} from "react";
 
 import { gsap } from "gsap";

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect} from "react";
-import "../styles/ContactPageFinal.css";
+import "../Styles/ContactPageFinal.css";
 import { gsap } from "gsap";
 import axios from "axios";
 import { VscArrowCircleUp } from "react-icons/vsc";

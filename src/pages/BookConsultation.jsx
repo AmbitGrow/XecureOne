@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
-import "../styles/BookConsultation.css";
+import "../Styles/BookConsultation.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState } from "react";

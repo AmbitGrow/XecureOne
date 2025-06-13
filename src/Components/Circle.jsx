@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { CustomEase } from "gsap/CustomEase";
 import gsap from "gsap";
-import "../styles/Circle.css";
+import "../Styles/Circle.css";
 gsap.registerPlugin(CustomEase);
 
 function Circle() {
