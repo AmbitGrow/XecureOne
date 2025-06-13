@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import "../styles/Footer.css";
+import "../Styles/Footer.css";
 import { RiInstagramFill } from "react-icons/ri";
 import { ImLinkedin2 } from "react-icons/im";
 import { FaFacebookF } from "react-icons/fa6";
